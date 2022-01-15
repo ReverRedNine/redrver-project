@@ -1,0 +1,709 @@
+<!DOCTYPE html> <!-- html 시작-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML 연습장</title> <!-- 사이트 이름-->
+<!-- head와 body로 구성-->
+    </head>
+    <body>
+        <!-- h는 제목(6개 까지 크기 조절), p는 단락-->
+        <h1>링크</h1>
+        <ul style="list-style-type: square">
+        <li><a href="https://www.youtube.com/watch?v=VozMYcCYvtg&t=4730s">HTML 한번에 끝내기 HTML Full Tutorial 유튜브</a></li><br/>
+        <li><a href="https://blog.naver.com/redrever">redrever 네이버 블로그</a></li><!-- 홈페이지 링크-->
+        </ul>
+
+        <h1>태그</h1>
+
+        <h2>단락 태그</h2>
+        <ul>
+            <li>p 태그는 문단을 나타낼 때 사용</li>
+            <li>문단 전 후로 줄 빈 줄이 추가된다.</li>
+        </ul>
+
+        <h2>줄 나누기 태그</h2>
+        <ul>
+            <li>br/ 태그는 강제로 줄 바꿈을 할 때 사용하는 태그이다.</li>
+            <li>종료 태그가 없다.</li>
+        </ul>
+
+        <h2>미리 정의된 서식 태그</h2>
+        <pre>
+            텍스트 서식을
+              그대로   출력함
+        </pre>
+        <ul>
+            <li>pre 태그는 입력한 텍스트 그대로 화면에 표시할 때 사용하는 태그이다.</li>
+        </ul>
+
+        <h2>수평선 태그</h2>
+        <hr>
+        <p>hr 태그는 수평선을 표시한다.</p>
+        <hr>
+
+        <h2>텍스트 서식 태그</h2>
+        <b>b 태그 : 굵게</b><br/>
+        <i>i 태그 : 이텔릭</i><br/>
+        <small>small 태그 : 작게</small><br/>
+        <ins>ins 태그 : 밑줄</ins><br/>
+        <del>del 태그 : 가운데 선</del><br/>
+        <mark>mark 태그 : 하이라이트</mark><br/>
+        <strong>strong 태그 : 중요</strong><br/>
+        <code>code 태그 : 코드</code><br/>
+        <em>em 태그 : 강조</em><br/>
+        <sup>sup 태그 : 위 첨자</sup><br/>
+        <sub>sub 태그 : 아래 첨자</sub><br/>
+
+        <h2>인용 태그</h2>
+        <h3>인용구(quotation)</h3>
+        <q>인용구</q>
+        <ul>
+            <li>짧은 인라인으로 사용한다.</li>
+        </ul>
+
+        <h3>블록 인용구(block quotation)</h3>
+        <blockquote>블록 인용구(block quotation) 블록 인용구(block quotation) 블록 인용구(block quotation) 블록 인용구(block quotation) 블록 인용구(block quotation) 블록 인용구(block quotation) 블록 인용구(block quotation) 블록 인용구(block quotation)</blockquote>
+        <ul>
+            <li>길이가 긴 인용구는 블록 인용구 태그(blockquote)를 사용한다.</li>
+        </ul>
+
+        <h3>약어(abbreviation)</h3>
+        <abbr title="HyperText Markup Language">HTML</abbr>
+        <ul>
+            <li>abbr title="HyperText Markup Language">HTML 약어 정의</li>
+        </ul>
+
+        <h3>인용(citation)</h3>
+        <cite>The Matrix</cite>
+        <ul>
+            <li> cite는 인용되는 작품의 제목, 논문, 기사 등 </li>
+        </ul>
+
+        <h3>주소(address)</h3>
+        <adress>서울 특별시 종로구 숭인동</adress>
+        <ul>
+            <li>adresss는 문서 작성자 및 소유자 연락처 등을 정의할 때 사용한다.</li>
+        </ul>
+
+        <h2>앵커 태그</h2>
+        <a href="#a 태그">a 태그</a>
+        <a href="#a href">a href 속성</a>
+        <a href="#target">target 속성</a>
+        <hr>
+        <table style="width:100%">
+            <caption>ex) a href="http://www.google.com" target="_blank"구글,<a href="http://www.google.com" target="_blank">구글</a></caption>
+        <tr style="background-color:lightgrey">
+            <td>_blank</td>
+            <td>_self</td>
+            <td>_parent</td>
+            <td>_top</td>
+        </tr>
+        <tr>
+            <td>새로운 창</td>
+            <td>현재 창</td>
+            <td>웹 브라우저 부모창</td>
+            <td>웹 브라우저 전체 영역</td>
+        </tr>
+    </table>
+    <ul>
+        <li id="a 태그">a 태그는 다른 사이트로 통하는 링크나 같은 페이지의 다른 위치로 이동하는 링크를 만들 때 사용한다.</li>
+        <li id="a href">a href=""는 속성에 값을 설정하여 이동할 곳을 지정한다.</li>
+        <li id="target">target 속성을 통해 새로운 페이지가 열릴 곳을 지정한다.</li>
+    </ul>
+
+        <h2>리스트 태그</h2>
+        <h3>순서가 없는 리스트(unordered list)</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <ul style="list-style-type: circle">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <ul style="list-style-type: square">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <ul>
+            <li>ul 태그를 사용하여 전체 리스트 표현</li>
+            <li>li 태그를 사용하여 각 항목을 입력(list item)</li>
+        </ul>
+        <h3>순서가 있는 리스트(ordered list)</h3>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+        <ol type="i">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+        <ol type="A">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+        <ol type="I">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+        <ol type="a">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+        <ul>
+            <li>ol 태그를 사용하여 전체 리스트 표현</li>
+            <li>li 태그를 사용하여 각 항목을 입력</li>
+        </ul>
+        <h3>정의 리스트(definitionlist)</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>웹 페이지를 위한 마크업 언어</dd>
+            <dt>CSS</dt>
+            <dd>마크업 언어가 실제 표시되는 방법을 기술하는 언어</dd>
+            <dt>JavaScript</dt>
+            <dd>웹 브라우저 내에서 주로 사용되는 객체 기반 스크립트 프로그래밍 언어</dd>
+        </dl>
+        <ul>
+            <li>dl 태그를 사용하여 전체 리스트 표현</li>
+            <li>각 항목은 dt 태그를 사용하며</br>각 설명은 dd 태그를 사용</li>
+        </ul>
+
+        <h2>테이블 태그</h2>
+        <table border="1">
+            <caption>테이블 1</caption>
+            <tr>
+                <th>이름</th>
+                <th>성별</th>
+            </tr>
+            <tr>
+                <td>김득춘</td>
+                <td>남자</td>
+            </tr>
+            <tr>
+                <td>김춘자</td>
+                <td>여자</td>
+            </tr>
+        </table>
+
+        <table border="1">
+            <caption>시간표</caption>
+            <thead>
+                <tr>
+                    <th rowspan=2>교시</th>
+                    <th colspan=5>요일</th>
+                </tr>
+                <tr>
+                    <th>월</th>
+                    <th>화</th>
+                    <th>수</th>
+                    <th>목</th>
+                    <th>금</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1교시</td>
+                    <td>컴퓨터 개론</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2교시</td>
+                    <td></td>
+                    <td>머신러닝</td>
+                    <td></td>
+                    <td>웹과 인터넷</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3교시</td>
+                    <td></td>
+                    <td></td>
+                    <td>프로그래밍</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4교시</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>멀티미디어 태그</h2>
+
+        <h3>이미지 태그</h3>
+        <p>ex) img src="https://health.chosun.com/site/data/img_dir/2021/07/26/2021072601445_0.jpg" alt="강아지 사진" width="200", height="100"  border=1</br>이미지 삽입을 위해서 사용한다.</p>
+        <img src="https://health.chosun.com/site/data/img_dir/2021/07/26/2021072601445_0.jpg" alt="강아지 사진" width="200", height="100" border=1>
+        <ul>
+            <li>src : 이미지 파일 경로</li>
+            <li>title : 이미지 제목</li>
+            <li>width : 이미지 가로 크기</li>
+            <li>height : 이미지 세로 크기</li>
+            <li>alt : 이미지 대체 텍스트</li>
+            <li>style : 이미지 스타일 정의</li>
+            <li>border : 이미지 테두리 두</li>
+        </ul>
+        
+        <h3>오디오 태그</h3>
+        <p>오디오를 삽입할 때 사용하는 태그</p>
+        <audio src="dog.mp3" controls autoplay></audio>
+            <ul>
+                <li>src : 오디오 파일의 경로</li>
+                <li>controls : 오디오 파일의 재생 제어기 표시</li>
+                <li>autoplay : 자동 재생</li>
+                <li>muted : 초기에 음소거 상태</li>
+                <li>preload : 오디오 파일 미리 다운로드</li>
+            </ul>
+
+            <h3>비디오 태그</h3>
+            <p>ex) video src="dog.mp4" controls width="300" height="200" /video</p>
+            <video src="dog.mp4" controls width="300" height="200"></video>
+            <ul>
+                <li>src : 비디오 파일의 경로</li>
+                <li>controls : 비디오 파일의 재생 제어기 표시</li>
+                <li>autoplay : 자동 재생</li>
+                <li>widght : 비디오의 가로 크기</li>
+                <li>height : 비디오의 세로 크기</li>
+                <li>loop : 반복 재생</li>
+                <li>muted : 초기에 음소거 상태</li>
+                <li>preload : 비디오 파일 미리 다운로드</li>
+                <li>poster : 비디오의 썸네일</li>
+            </ul>
+
+            <h2>공간분할 태그</h2>
+            <p>ex) div style="border: 1px solid black" Block /div</br>
+                ex) span style="background-color: aqua" Inline /span</p>
+            <h3>블록 분할 태그</h3>
+            <div style="border: 1px solid black">Block</div>
+            <ul>
+                <li>div 태그를 이용하여 웹 문서의 전체 공간을 block 형식으로 분할한다.</li>
+            </ul>
+
+            <h3>인라인 분할 태그</h3>
+            <span style="background-color: aqua">Inline</span>
+            <ul>
+                <li>span 태그를 이용하여 웹 문서의 한 줄에 대해서 inline 형식으로 분할한다.</li>
+            </ul>
+
+            <h2>아이프레임 태그</h2>
+            <iframe src="https://wikidocs.net/" name="iframe_a" height="300px" width="300px" title="Iframe Example">iframe</iframe>
+            <p><a href="http://www.suanlab.com" target="iframe_a">SuanLab.com</a></p>
+            <ul>
+                <li>iframe : 태그를 이용하여 웹 문서 내에 다른 웹 문서를 표시할 때 사용</li>
+                <li>src : 포함할 페이지의 URL 정의</li>
+                <li>width : 너비(가로)</li>
+                <li>height : 높이(세로)</li>
+                <li>title : 아이프레임 제목</li>
+                <li>name : 링크 대상 이름</li>
+                <li>scrolling : 스크롤바</li>
+            </ul>
+
+            <h2>입력 양식 태그</h2>
+
+            <h3>폼 태그</h3>
+            <p>웹에서 폼을 만드는 데 사용한다.</p>
+            
+            <ul1 style="list-style-type: circle">
+                <li>속성</li>
+            </ul>
+            <ul>
+                <li>name : form 이름</li>
+                <li>action : 입력 데이터를 처리하는 웹 프로그램(JSP, PHP 등)</li>
+                <li>method : 전송 방식</li>
+                <li>type : 입력 양식 모양</li>
+            </ul>
+            <ul1 style="list-style-type: circle">
+                <li>method 속성 : 입력 양식의 method 속성에는 입력한 데이터의 전송방식(GET/POST) 설정</li>
+            </ul>
+
+            <ul style="list-style-type: square">
+                <li>GET 방식</li>
+            </ul>
+            <ul>
+                <li>URL의 뒷부분에 파라미터를 추가하여 데이터를 전달함</li>
+                <li>URl에 어떤 데이터가 전송되는지 표현되어 있으므로 보안에 취약(검색 등에 사용)</li>
+                <li>최대 글자 수 : 2048</li>
+            </ul>
+            <ul style="list-style-type: square">
+                <li>POST 방식</li>
+            </ul>
+            <ul>
+                <li>HTTP Request 헤더에 파라미터를 추가하여 데이터 전송</li>
+                <li>어떤 데이터가 전송되는지 표면상에 보이지 않기 때문에 GET 방식보다 보안성이 높음(로그인 등이 해당)</li>
+                <li>글자 수 제한이 없다.</li>
+            </ul>
+
+            <h3>폼 요소</h3>
+            <p>입력 양식 폼에서 사용되는 다양한 요소</p>
+
+            <table>
+                <caption>폼 관련 태그</caption>
+                <tr style="background-color:lightgrey">
+                    <th>태 그</th>
+                    <th>설 명</th>
+                </tr>
+                <tr>
+                    <td>input</td>
+                    <td>입력 제어</td>
+                </tr>
+                <tr>
+                    <td>textarea</td>
+                    <td>여러줄의 입력</td>
+                </tr>
+                <tr>
+                    <td>label</td>
+                    <td>input 요소의 라벨</td>
+                </tr>
+                <tr>
+                    <td>fieldset</td>
+                    <td>폼에 관련 요소</td>
+                </tr>
+                <tr>
+                    <td>legend</td>
+                    <td>fieldset 요소의 캡션</td>
+                </tr>
+                <tr>
+                    <td>select</td>
+                    <td>드롭다운 리스트</td>
+                </tr>
+                <tr>
+                    <td>optgroup</td>
+                    <td>드롭다운 목록에서 관련 옵션 그룹</td>
+                </tr>
+                <tr>
+                    <td>option</td>
+                    <td>드롭다운 목록에서 옵션</td>
+                </tr>
+                <tr>
+                    <td>button</td>
+                    <td>버튼</td>
+                </tr>
+                <tr>
+                    <td>datalist</td>
+                    <td>입력 제어에 대해 미리 정의된 옵션 리스트</td>
+                </tr>
+                <tr>
+                    <td>output</td>
+                    <td>계산 결과</td>
+                </tr>
+            </table>
+
+            <h4>input 태그</h4>
+            <label for="name">이름:</label>
+            <input type="text" id="name" name="name" value="Redrever" size="20">
+
+            <h4>select 태그</h4>
+            <select id="food" name="food">
+                <option value="pizza" selected>피자</option>
+                <option value="hamburger">햄버거</option>
+                <option value="pasta">파스타</option>
+              </select>
+
+              <h5>select 태그(다중 선택)</h5>
+              <select id="food" name="food" multiple><!--multipel은 다중 선택, 없을 시 단일 선택-->
+                <option value="pizza" selected>피자</option>
+                <option value="hamburger">햄버거</option>
+                <option value="pasta">파스타</option>
+              </select>
+
+              <h5>select 태그(그룹)</h5>
+              <select id="food" name="food" multiple>
+                <optgroup label="음식">
+                  <option value="pizza" selected>피자</option>
+                  <option value="hamburger">햄버거</option>
+                  <option value="pasta">파스타</option>
+                </optgroup>
+                <optgroup label="후식">
+                  <option value="cola">콜라</option>
+                  <option value="coffee">커피</option>
+                  <option value="icecream">아이스크림</option>
+                </optgroup>
+              </select>
+
+              <h4>textarea 태그</h4>
+              <textarea name="article" rows="10" cols="20">텍스트</textarea>
+
+              <h4>button 태그</h4>
+              <form name="fname" action="sign.jsp" method="post">
+              <button>Button</button>
+            </form>
+
+              <h4>fieldset, legend 태그</h4>
+              <form>
+                <fieldset>
+                  <legend>개인정보</legend>
+                  <label for="name">이름:</label><br>
+                  <input type="text" id="name" name="name" value="Redrever"><br>
+                  <label for="affiliation">소속:</label><br>
+                  <input type="text" id="affiliation" name="affiliation" value="Korea"><br><br>
+                  <input type="submit" value="전송">
+                </fieldset>
+              </form>
+
+              <h4>datalist 태그</h4>
+              <form>
+                  <input list="browsers">
+                  <datalist id="browsers">
+                      <option value="Chrome"></option>
+                      <option value="Firefox"></option>
+                      <option value="Internet Explorer"></option>
+                      <option value="Opera"></option>
+                      <option value="Safari"></option>
+                  </datalist>
+              </form>
+
+              <h4>output 태그</h4>
+              <form oninput="r.value=parseInt(x.value) * parseInt(y.value)">
+                <input type="number" id="x" name="x" value="10">
+                *
+                <input type="number" id="y" name="y" value="20">
+                =
+                <output name="r" for="x y"></output>
+                <br /><br />
+                <input type="submit">
+            </form>
+
+            <h2>입력 형식</h2>
+            <ul1  style="list-style-type: circle">
+                <li>input 태그를 form ~ /form 내부에서 사용되며, type 속성에 데이터 입력 양식 지정</li>
+                <li>주요 공통 속성</li>
+            </ul>
+            <ul>
+                <li>readonly : 읽기 전용</li>
+                <li>disabled : 비활성화</li>
+                <li>autocompleate : 자동 완성</li>
+                <li>autofocus : 웹 페이지 로드시 초기에 포커싱 설정</li>
+                <li>placeholder : 입력 폼에 희미하게 설명을 보여줌</li>
+                <li>required : 필수 속성</li>
+                <li>spellcheck : 오타 점검</li>
+            </ul>
+
+            <h3>text 타입</h3>
+            <form>
+            <input type="text" name="text" size="20" placeholder="이름"><!--placegolder는 입력 폼에 희미하게 설명을 보여줌-->
+            </form>
+            <p>텍스트 입력에 사용</p>
+
+            <h3>password 타입</h3>
+            <form>
+                <input type="password" name="password" required><!--required는 필수 속성-->
+            </form>
+            <p>비밀번호 사용</p>
+
+            <h3>button 타입</h3>
+            <form>
+                <input type="button" value="button">
+            </form>
+            <p>버튼 모양에 사용</p>
+
+            <h3>radio 타입</h3>
+            <from>
+                <input type="radio" name="gender" value="male">남자
+                <input type="radio" name="gender" value="female">여자<br />
+            </from>
+            <p>여러 개의 항목 중에서 하나를 선택할 때 사용한다.</p>
+
+            <h3>checkbox 타입</h3>
+            <from>
+                <input type="checkbox" name="food" value="pizza">피자<br />
+                <input type="checkbox" name="food" value="hamburger">햄버거<br />
+                <input type="checkbox" name="food" value="pasta">파스타
+            </from>
+            <p>여러 개의 항목 중에서 여러개를 선택할 때 사용한다.</p>
+
+            <h3>date 타입</h3>
+            <from>
+                <input type="date" name="date" min="2022-01-01" max="2022-12-31">
+            </from>
+            <p>날짜를 입력할 때 사용한다.</p>
+
+            <h3>month 타입</h3>
+            <from>
+                <input type="month" id="month" name="month">
+            </from>
+            <p>월과 년도를 입력할 때 사용한다.</p>
+
+            <h3>week 타입</h3>
+            <from>
+                <input type="week" id="week" name="week">
+            </from>
+            <p>주를 입력할 때 사용한다.</p>
+
+            <h3>time 타입</h3>
+            <from>
+                <input type="time" id="time" name="time">
+            </from>
+            <p>시간을 입력할 때 사용한다.</p>
+
+            <h3>datetime-local 타입</h3>
+            <form>
+                <input type="datetime-local" id="datetime" name="datetime">
+            </form>
+            <p>날짜 및 시간을 입력할 때 사용한다.</p>
+
+            <h3>color 타입</h3>
+            <form>
+                <input type="color" name="color">
+            </form>
+            <p>색상을 선택할 때 사용한다.</p>
+
+            <h3>number 타입</h3>
+            <form>
+                <input type="number" name="num" min="0" max="1000">
+            </form>
+            <p>숫자를 입력할 때 사용한다.</p>
+
+            <h3>range 타입</h3>
+            <form>
+                <input type="range" name="point" min="0" max="100">
+            </form>
+            <p>범위를 지정할 때 사용한다.</p>
+
+            <h3>email 타입</h3>
+            <form>
+                <input type="email" name="email">
+            </form>
+            <p>email을 입력할 때 사용하며, 이메일 형식을 자동 체킹한다.</p>
+
+            <h3>url 타입</h3>
+            <form>
+                <input type="url" name="myurl">
+            </form>
+            <p>url을 입력할 때 사용하며, url 형식을 자동 체킹한다.</p>
+
+            <h3>tel 타입</h3>
+            <form>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}">
+            </form>
+            <p>전화번호 입력에 사용한다.</p>
+
+            <h3>file 타입</h3>
+            <form>
+                <input type="file" id="myfile" name="myfile">
+            </form>
+            <p>파일 선택에 사용한다.</p>
+
+            <h3>submit과 reset 타입</h3>
+            <form>
+                <input type="submit" value="전송">
+                <input type="reset" value="초기화">
+            </form>
+            <p>입력 양식의 전송과 초기화에 사용한다.</p>
+
+            <h3>회원가입 폼 예제</h3>
+            <form name="signUp" action="signUp.jsp" method="post">
+                <fieldset width="500px" height="600px">
+                    <legend>회원가입</legend>
+                    아이디 : <input type="text" name="id" placeholder="아이디를 입력 해주십시오." required>
+                    <button type="button" onclick="alert('사용가능한 아이디 입니다.')">아이디 확인</button><br/><br/>
+                    비밀번호 : <input type="password" placeholder="8글자 이상 입력 해주십시오." required><br/><br/>
+                    생년월일 : <input type="date" name="birthday"><br/><br/>
+                    이메일 : <input type="email" name="email" placeholder="이메일을 기입해주십시오." required><br/><br/>
+                    전화번호 : <input type="tel" name="tel" placeholder="연락처를 기입해주십시오." required><br/><br/>
+                    사이트를 알게된 경로 : <br/>
+                    <input type="checkbox" name="serch" value="serch">검색
+                    <input type="checkbox" name="friend" value="friend">친구
+                    <input type="checkbox" name="recommend" value="recommend">추천
+                    <input type="checkbox" name="adv" value="adv">광고
+                    <input type="checkbox" name="ect" value="ect">기타
+                </fieldset><br/>
+                <button type="submit">회원가입</button>
+                <button type="reset">다시 입력</button>
+            </form>
+
+            <h2>class와 id</h2>
+            <p id="paragraph1">첫번째 문단</p>
+            <p class="content1">컨텐츠 1</p>
+            <p class="content2">컨텐츠 2</p>
+            
+            <h3>calss 속성</h3>
+            <ul>
+                <li>여러 태그들을 하나의 그룹으로 그룹핑</li>
+                <li>태그에 class="클래스명"으로 지정</li>
+                <li>.클래스이름으로 선택</li>
+            </ul>
+
+            <h3>id 속성</h3>
+            <ul>
+                <li>하나의 태그에 고유 id 부여</li>
+                <li>태그에 id="고유id값"으로 지정</li>
+                <li>#id값으로 선택</li>
+            </ul>
+
+            <h2>시맨틱 요소</h2>
+            <table>
+                <caption>시맨틱 관련 태그</caption>
+                <tr style="background-color:lightgrey">
+                    <th>태 그</th>
+                    <th>설 명</th>
+                </tr>
+                <tr>
+                    <td>article</td>
+                    <td>독립적인 자체 컨텐츠 정의</td>
+                </tr>
+                <tr>
+                    <td>aside</td>
+                    <td>페이지 내용과 별도 내용 정의</td>
+                </tr>
+                <tr>
+                    <td>details</td>
+                    <td>사용자가 보거나 숨길 수 있는 추가 세부사항 정의</td>
+                </tr>
+                <tr>
+                    <td>figcaption</td>
+                    <td>(figure) 요소에 대한 캡션</td>
+                </tr>
+                <tr>
+                    <td>figure</td>
+                    <td>일러스트, 다이어그램, 사진, 코드 목록 등의 자체 컨텐츠 지정</td>
+                </tr>
+                <tr>
+                    <td>footer</td>
+                    <td>문서 또는 섹션의 바닥글 정의</td>
+                </tr>
+                <tr>
+                    <td>header</td>
+                    <td>문서 또는 섹션의 머리글 정의</td>
+                </tr>
+                <tr>
+                    <td>main</td>
+                    <td>문서의 주요 컨텐츠 지정</td>
+                </tr>
+                <tr>
+                    <td>mark</td>
+                    <td>강조 표시된 텍스트 정의</td>
+                </tr>
+                <tr>
+                    <td>nav</td>
+                    <td>내비게이션 링크 정의</td>
+                </tr>
+                <tr>
+                    <td>section</td>
+                    <td>문서의 섹션 정의</td>
+                </tr>
+                <tr>
+                    <td>summary</td>
+                    <td>(details) 요소에 대한 주제 정의</td>
+                </tr>
+                <tr>
+                    <td>time</td>
+                    <td>날짜 및 시간 정의</td>
+                </tr>
+            </table>
+    </body>
+</html>
